@@ -1,6 +1,11 @@
 # Spring Conference Demo App
 
+This is a conference microservice app that will just display sessions/speaker info in JSON based on the endpoint url.
+supports get/post/delete/put via postman.
 
+<img src="./readme_images/home-version-endpoint.JPG" alt="home-version-endpoint" width="400" style="display:block"/>
+<img src="./readme_images/get-session-endpoint.JPG" alt="get-session-endpoint" width="400" style="display:block"/>
+<img src="./readme_images/get-all-sessions-endpoint.JPG" alt="get-all-sessions-endpoint" width="400" style="display:block"/>
 
 guide source:
 
@@ -38,5 +43,5 @@ Set up Session and Speaker relationship as many-to-many
 
 create SessionRepository and SpeakerRepository that extends JpaRepository
 
-create mapping in SessionsController and SpeakersController for the get/post/put/delete apis (CRUD)
+create mapping in SessionsController and SpeakersController for the get/post/put/delete endpoint apis (CRUD)
 
